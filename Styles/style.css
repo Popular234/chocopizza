@@ -1,0 +1,85 @@
+html{
+    display: grid;
+    grid-template-columns: 1fr 901px 1fr;
+}
+body{
+    grid-column-start: 2;
+}
+header{
+    grid-template-columns: 1fr 1fr;
+}
+#logo{
+    display: inline;
+    position: relative;
+    top: 35px;
+}
+#ttext{
+    display: inline;
+    position: relative;
+    font-family: 'Yellowtail', cursive;
+    font-size: 40px;
+    top: 15px;
+    left: .3%;
+    font-weight: 500;
+}
+#tsubtext{
+    display: inline;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    top: 35px;
+    right: 14.5%;
+    color: gray;
+}
+.img{
+    padding-right: 1px;
+}
+#pint{
+    padding-right: 9px;
+}
+#idiv{
+    display: flex;
+    position: relative;
+    bottom: 20px;
+    justify-content: end;
+    align-items: center;
+}
+#picon{
+    display: flex;
+    position: relative;
+    bottom: 43px;
+    left: 94.5%;
+}
+#ptext{
+    display: flex;
+    position: relative;
+    bottom: 85px;
+    justify-content: end;
+    font: menu;
+    color: lightgray;
+}
+#mhead{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+#msubtext{
+    font-weight: normal;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    bottom: 28px;
+    color: lightgray;
+    font-size: smaller;
+    display: inline;
+}
+#Pizza{
+    position: relative;
+    bottom: 85px;
+}
+p{
+    position: relative;
+    bottom: 70px;
+    text-indent: 28px;
+    font-size: 19.3px;
+    font-family: 'Noto Serif Khojki', serif;
+    color: gray;
+}
