@@ -83,3 +83,94 @@ p{
     font-family: 'Noto Serif Khojki', serif;
     color: gray;
 }
+form{
+    background-image: url(/Img/list-bg.png);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 500px;
+    position: relative;
+    bottom: 55px;
+}
+input{
+    position: relative;
+    vertical-align: middle; 
+    accent-color: rgb(0, 255, 0);
+}
+.strike:checked + span{
+    text-decoration: line-through;
+}
+label{
+    position: relative;
+    top: 37px;
+    left: 60px;
+    padding: 2px;
+    font-family: 'Kalam', cursive;
+    font-size: 17.5px;
+}
+#nutz{
+    width: 300px;
+    padding-bottom: 90px;
+}
+#yup{
+    white-space: nowrap;
+}
+footer{
+    display: grid;
+    grid-template-columns: 100px 800px;
+    padding-top: 60px;
+}
+/* #fpic{
+    display: inline-block;
+} */
+footer h1{
+    grid-column-start: 2;
+    color: gray;
+    position: relative;
+    bottom: 20px;
+    font-size: x-large;
+}
+footer #ftext{
+    grid-column-start: 2;
+    font-size: 17px;
+    width: 550px;
+    padding-top: 10px;
+}
+#red{
+    display: flex;
+    grid-column-start: 2;
+    position: relative;
+    left: 595px;
+    bottom: 150px;
+    padding: 20px;
+    background-color: #bc7058;
+    color: white;
+    width: 150px;
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#fsec{
+    width: 901px;
+}
+#small{
+    display: flex;
+    position: relative;
+    left: 419px;
+    bottom: 36px;
+    padding: 10px;
+    background-color: white;
+}
+.footer{
+    position: relative;
+    right: 70px;
+    top: 50px;
+    grid-column-start: 2;
+    text-align: center;
+}
+#yeh{
+    position: relative;
+    right: 70px;
+    top: 10px;
+    grid-column-start: 2;
+    text-align: center;
+    padding-bottom: 80px;
+}
